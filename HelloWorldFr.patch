@@ -1,0 +1,55 @@
+From 933024d7be11690afcb9848c61196a6fd4f2f5ff Mon Sep 17 00:00:00 2001
+From: Libo Chen <chenlibo0928@gmail.com>
+Date: Tue, 22 Sep 2015 15:42:59 -0500
+Subject: [PATCH] q1.1.2
+
+---
+ HelloWorld.java   | 2 +-
+ HelloWorldDe.java | 7 +++++++
+ HelloWorldEn.java | 7 +++++++
+ 3 files changed, 15 insertions(+), 1 deletion(-)
+ create mode 100644 HelloWorldDe.java
+ create mode 100644 HelloWorldEn.java
+
+diff --git a/HelloWorld.java b/HelloWorld.java
+index 0a9b78c..b316ea1 100644
+--- a/HelloWorld.java
++++ b/HelloWorld.java
+@@ -1,7 +1,7 @@
+ 
+ public class HelloWorld {
+ 	public static void main( String [] args){
+-		System.out.println("Bonjour, monde!");
++		System.out.println("Hello World!");
+ 	}
+ 
+ }
+diff --git a/HelloWorldDe.java b/HelloWorldDe.java
+new file mode 100644
+index 0000000..0a9b78c
+--- /dev/null
++++ b/HelloWorldDe.java
+@@ -0,0 +1,7 @@
++
++public class HelloWorld {
++	public static void main( String [] args){
++		System.out.println("Hallo Welt!");
++	}
++
++}
+diff --git a/HelloWorldEn.java b/HelloWorldEn.java
+new file mode 100644
+index 0000000..b316ea1
+--- /dev/null
++++ b/HelloWorldEn.java
+@@ -0,0 +1,7 @@
++
++public class HelloWorld {
++	public static void main( String [] args){
++		System.out.println("Hello World!");
++	}
++
++}
+-- 
+1.8.5.2 (Apple Git-48)
+
